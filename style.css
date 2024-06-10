@@ -1,0 +1,30 @@
+body, html {
+    height:100%;
+    margin:0;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+}
+
+.board {
+    display:flex;
+    flex-wrap: wrap;
+    height:700px;
+    width:1000px;
+    padding:5px;
+    background:pink;
+}
+
+.tile {
+    box-sizing:border-box; 
+    border: 0px; 
+    border-color:black; 
+    border-style:solid; 
+    background: grey; 
+    height:calc(10%); 
+    width:calc(10%);
+}
